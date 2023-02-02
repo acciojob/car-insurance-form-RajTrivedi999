@@ -10,7 +10,47 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<form method="post">
+		<ol class="myList">
+			<li>
+				<label for="name">Name<span class="required">*</span></label>
+				<input id="name" type="text" required>
+			</li>
+			<li>
+				<label for="email">Email<span class="required">*</span></label>
+				<input id="email" type="email" required>
+			</li>
+			<li>
+				<label aria-required="true">Gender<span class="required">*</span></label>
+				<input type="radio" name="select" required>
+				<span>Male</span>
+				<input type="radio" name="select" required>
+				<span>Female</span>
+			</li>
+			<li>
+				<label for="cars">Car Brands</label>
+				<input id="cars" type="checkbox">
+				<span>BMW</span>
+				<input id="cars" type="checkbox">
+				<span>Audi</span>
+				<input id="cars" type="checkbox">
+				<span>Mercedez</span>
+			</li>
+			<li>
+				<label for="carage">Car Age<span class="required">*</span></label>
+				<input id="carage" type="number" required>
+			</li>
+			<li>
+				<label for="dop">Date Of Purchase<span class="required">*</span></label>
+				<input id="dop" type="date" required>
+			</li>
+			<li>
+				<label for="password">password<span class="required">*</span></label>
+				<input id="password" type="password" required>
+			</li>
+			<button>submit</button>
+		</ol>
+	</form>
 </body>
 
 </html>

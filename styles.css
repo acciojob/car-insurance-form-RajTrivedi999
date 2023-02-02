@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.myList{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.required{
+	color:red;
+}
+button{
+	width:60px;
+}
